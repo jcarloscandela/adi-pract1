@@ -83,7 +83,7 @@ describe('/put songs', () =>{
 
 describe('/DELETE songs/song:id', () =>{
     it('Borra una cancion', (done) =>{
-        Song.findOne({'title': 'prueba5'}, function(err,song){
+        Song.findOne({'title': 'prueba2'}, function(err,song){
         chai.request(server)
         .del('/test/songs/' + song._id)
         .end((err, res) => {
