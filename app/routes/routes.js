@@ -6,7 +6,8 @@ const songController = require('../controllers/song.js')
 const authController = require('../controllers/auth.js')
 
 apiRoutes.get('/', function(req, res) {
-    res.json({ message: 'Bienvenido a la api!' });
+    res.json({ message: 'Bienvenido a la api!',
+               routes: apiRoutes.toString()});
 });
   
 // Users api
