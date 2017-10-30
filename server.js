@@ -1,11 +1,3 @@
-//https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4
-//https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens
-//https://scotch.io/tutorials/an-introduction-to-mongodb
-
-// =======================
-// get the packages we need ============
-// =======================
-
 var mongoose    = require('mongoose');
 var faker       = require('faker')
 
@@ -87,3 +79,5 @@ app.get('/', function(req, res) {
 
 app.listen(port);
 console.log('Server running in http://localhost:' + port);
+
+module.exports = app;
