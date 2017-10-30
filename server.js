@@ -69,7 +69,7 @@ app.get('/setup', function(req, res) {
 });
 
 app.get('/', function(req, res) {
-    res.send('Hello! The API is at http://localhost:' + port + '/api');
+    res.send('Hola, la api está songadi.herokuapp.com/api');
 });
 
 
