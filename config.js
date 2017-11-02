@@ -1,5 +1,5 @@
 module.exports = {
-    'secret': 'candela',
+    'secret': 'Candela',
     //remote
     'database': 'mongodb://bordera:prueba@ds121575.mlab.com:21575/adi'
     //local
