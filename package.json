@@ -15,7 +15,7 @@
     "chai": "^4.3.4",
     "chai-http": "^4.0.0",
     "crypto": "^1.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "faker": "^5.5.3",
     "jsonwebtoken": "^8.5.1",
     "jwt-simple": "^0.5.6",
